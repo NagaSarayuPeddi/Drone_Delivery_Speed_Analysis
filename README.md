@@ -60,7 +60,6 @@ Prior to analysis:
 ## Data Preparation
 
 - Cleaned and filtered the dataset
-- Removed incomplete records
 - Selected relevant variables
 - Prepared features for regression analysis
 
@@ -107,7 +106,7 @@ Very weak relationship with delivery speed.
 
 **R² = 0.0041**
 
-Package weight alone had little predictive value for delivery speed. Drone Delivery Data Analysis.pdf
+Package weight alone had little predictive value for delivery speed.
 
 ---
 
@@ -117,7 +116,7 @@ Increasing route complexity generally reduced delivery speed.
 
 **R² = 0.1084**
 
-Although statistically weak, the relationship consistently showed decreasing speed with increased complexity. Drone Delivery Data Analysis.pdf
+Although statistically weak, the relationship consistently showed decreasing speed with increased complexity.
 
 ---
 
@@ -131,7 +130,7 @@ Average delivery speeds:
 |Medium|10.47 km/h|
 |High|8.71 km/h|
 
-Traffic level showed a meaningful impact on operational performance. Drone Delivery Data Analysis.pdf
+Traffic level showed a meaningful impact on operational performance.
 
 ---
 
@@ -146,17 +145,17 @@ Average speeds:
 |Rainy|9.72 km/h|
 |Snowy|7.67 km/h|
 
-Snow had the largest negative impact on delivery speed. Drone Delivery Data Analysis.pdf
+Snow had the largest negative impact on delivery speed.
 
 ---
 
 ## Temperature vs Battery
 
-Battery performance decreased as temperature increased.
+Within the 29 observations analyzed, battery performance decreased more quickly as temperature increased.
 
 **R² = 0.7205**
 
-This was one of the strongest relationships identified during the project. Drone Delivery Data Analysis.pdf
+This was one of the strongest relationships identified during the project.
 
 ---
 
@@ -176,7 +175,7 @@ Performance:
 
 Using a 90/10 train-test split improved performance to:
 
-**R² = 0.8384** Drone Delivery Data Analysis.pdf
+**R² = 0.8384** 
 
 ---
 
@@ -187,7 +186,7 @@ Using a 90/10 train-test split improved performance to:
 - Snow produced the slowest deliveries.
 - Sunny weather produced the fastest deliveries.
 - High temperatures accelerated battery depletion.
-- Combining operational variables produced much stronger predictive models than analyzing single variables independently. Drone Delivery Data Analysis.pdf
+- Combining operational variables produced much stronger predictive models than analyzing single variables independently.
 
 ---
 
@@ -210,7 +209,7 @@ My work included:
 - Data represented a limited time period.
 - Unsuccessful deliveries were excluded.
 - Additional weather conditions and seasonal data would improve generalizability.
-- More advanced machine-learning models could further improve prediction accuracy. Drone Delivery Data Analysis.pdf
+- More advanced machine-learning models could further improve prediction accuracy.
 
 ---
 
